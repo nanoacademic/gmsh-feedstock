@@ -98,38 +98,73 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64</td>
+              <td>linux_aarch64_blas_implmkl</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_blas_implmkl" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le</td>
+              <td>linux_aarch64_blas_implopenblas</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_blas_implopenblas" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64</td>
+              <td>linux_ppc64le_blas_implmkl</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_blas_implmkl" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64</td>
+              <td>linux_ppc64le_blas_implopenblas</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_blas_implopenblas" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>osx_64_blas_implmkl</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_blas_implmkl" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_blas_implopenblas</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_blas_implopenblas" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_blas_implmkl</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_blas_implmkl" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_blas_implopenblas</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_blas_implopenblas" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_blas_implmklopenmp_implintel</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=win&configuration=win%20win_64_blas_implmklopenmp_implintel" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_blas_implopenblasopenmp_implllvm</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5573&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gmsh-feedstock?branchName=main&jobName=win&configuration=win%20win_64_blas_implopenblasopenmp_implllvm" alt="variant">
                 </a>
               </td>
             </tr>

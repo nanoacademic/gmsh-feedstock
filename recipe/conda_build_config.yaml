@@ -1,0 +1,10 @@
+blas_impl:
+  - openblas
+  - mkl
+openmp_impl:
+  - llvm
+  - intel
+
+zip_keys:
+  - - blas_impl
+    - openmp_impl

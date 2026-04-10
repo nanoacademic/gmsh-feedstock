@@ -8,8 +8,11 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_:
-        CONFIG: win_64_
+      win_64_blas_implmklopenmp_implintel:
+        CONFIG: win_64_blas_implmklopenmp_implintel
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblasopenmp_implllvm:
+        CONFIG: win_64_blas_implopenblasopenmp_implllvm
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables:
